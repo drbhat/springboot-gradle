@@ -8,7 +8,7 @@ public class HelloGradleController {
 
     @RequestMapping(path = "hello")
     public String helloGradle() {
-        return "Hello Gradle!";
+        return "Hello Gradle! Updated";
     }
 
 }
